@@ -1,7 +1,6 @@
 $Env:GIT_TERMINAL_PROMPT=0
 $Env:GCM_AUTODETECT_TIMEOUT=-1
 
-cd $(System.DefaultWorkingDirectory)/$(solutionNamespace).Cloud
 
 git config --global core.safecrlf false
 git config user.email $(gitUserEmail)
